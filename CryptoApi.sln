@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoApi.WebApi", "CryptoApi.WebApi\CryptoApi.WebApi.csproj", "{E00F3DEA-97FC-4C06-ABE5-8C3E715D1E9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoApi.Shared", "CryptoApi.Shared\CryptoApi.Shared.csproj", "{A171AB20-5840-4599-96B2-A55BA7263272}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KeyGeneration", "KeyGeneration", "{A3A3994B-5EDF-458E-92B8-F59916A3F5AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyGenerator", "KeyGenerator\KeyGenerator.csproj", "{C0614AA8-5D33-4C95-8652-071F712247DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyTester", "KeyTester\KeyTester.csproj", "{F63933AA-4281-4881-8DCF-8C1BD82C0E4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Static", "Static", "{54E60C6B-8DA0-42FE-B7BE-88F6EED0C6B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{74CFBFF9-A921-4F3B-AA3B-03B4F8B6AAE0}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\OneDrive\Masaüstü\Keys.txt = ..\..\..\OneDrive\Masaüstü\Keys.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E00F3DEA-97FC-4C06-ABE5-8C3E715D1E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00F3DEA-97FC-4C06-ABE5-8C3E715D1E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00F3DEA-97FC-4C06-ABE5-8C3E715D1E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00F3DEA-97FC-4C06-ABE5-8C3E715D1E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A171AB20-5840-4599-96B2-A55BA7263272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A171AB20-5840-4599-96B2-A55BA7263272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A171AB20-5840-4599-96B2-A55BA7263272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A171AB20-5840-4599-96B2-A55BA7263272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0614AA8-5D33-4C95-8652-071F712247DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0614AA8-5D33-4C95-8652-071F712247DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0614AA8-5D33-4C95-8652-071F712247DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0614AA8-5D33-4C95-8652-071F712247DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63933AA-4281-4881-8DCF-8C1BD82C0E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63933AA-4281-4881-8DCF-8C1BD82C0E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63933AA-4281-4881-8DCF-8C1BD82C0E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63933AA-4281-4881-8DCF-8C1BD82C0E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0614AA8-5D33-4C95-8652-071F712247DA} = {A3A3994B-5EDF-458E-92B8-F59916A3F5AA}
+		{F63933AA-4281-4881-8DCF-8C1BD82C0E4C} = {A3A3994B-5EDF-458E-92B8-F59916A3F5AA}
+		{74CFBFF9-A921-4F3B-AA3B-03B4F8B6AAE0} = {54E60C6B-8DA0-42FE-B7BE-88F6EED0C6B5}
+	EndGlobalSection
+EndGlobal
